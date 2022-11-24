@@ -7,8 +7,8 @@ public class User {
 	private Socket sock; //소켓
 	private boolean status; //유저상태 (true면 로그인, false면 오프라인)
 	
-	public User(String id) { //아이디 받고 생성
-		this.user_id=id;
+	public User(String user_id) { //아이디 받고 생성
+		this.user_id=user_id;
 	}
 	public void enterChat(ChatRoom room) {
 		this.room=room;
